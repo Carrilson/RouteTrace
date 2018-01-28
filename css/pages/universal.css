@@ -36,10 +36,12 @@ code{
 	padding: 5px 10px 
 }
 
-td{
-	height:45;
-	max-width: 520px;
+.panel-body.method{
+	text-align:left;
 	line-height: 35px
+}
+.panel-body li{
+	font-size: 1.2em
 }
 
 .footer {
