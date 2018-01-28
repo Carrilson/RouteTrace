@@ -1,0 +1,254 @@
+<html lang="zh-CN">
+
+		<head>
+				<meta charset="utf-8">
+				<title>绘途 / Railidea</title>
+				<!-- Site CSS -->
+				<link rel="stylesheet" href="css/bootstrap.css">
+				<link rel="stylesheet" href="css/pages/universal.css">
+				<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		</head>
+
+		<body>
+		<nav id="nav" class="navbar navbar-default transparent navbar-fixed-top">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="menubtn"> 导航 </span>
+						</button>
+						<a class="navbar-brand">
+								<img alt="Brand" src="res/logo_b.png" id="brandimg" style="display:inline-block">
+						</a>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a id="backtotop" class="hide" onclick="backtop(); return false" style="cursor:pointer;">返回顶部</a></li>
+						<li><a href="#">主站</a></li>
+						<li class="active"><a>绘途</a></li>
+						<li><a title="敬请期待" style="cursor:not-allowed;">同趣</a></li>
+						<li><a title="敬请期待" style="cursor:not-allowed;">问鲸</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="jumbotron head" id="jumbo" style="background-image:linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(res/banner/1.jpg)!important">
+				<div class="container" id="searchpanel">
+						<center id="ctr">
+								<h4 style="font-size:2em;color:#fff">绘途计划</h5>
+								<h1 style="color:#fff">用轨迹</h4>
+								<h1 style="color:#fff">丈量每一寸远方</h4>
+								<br>
+								<div id="actionbtn" class="form-group" style="width:50%">
+								<a href="https://github.com/Railidea/RouteTrace/wiki" type="button" class="btn" style="font-size:1em;">查找轨迹 ></a>
+								&#12288;
+								<a href="https://github.com/Railidea/RouteTrace" type="button" class="btn" style="font-size:1em;">贡献轨迹 ></a>
+								</div>
+						</center>
+				</div>
+		</div>
+
+
+		<div class="jumbotron">
+				<div class="container">
+						<center>
+								<div class="alert alert-info" role="alert"><a href="https://zhuanlan.zhihu.com/transpotter">蓝鲸铁路 · 城客圈「寻访」系列计划进行中！邀您为您的城市和铁道风光多留些记忆。</a></div>
+								<br>
+								<br>
+								<br>
+								<h3>最新轨迹</h3>
+								<br>
+								<ul class="list-group" style="text-align:left;border:none!important;">
+									<li class="list-group-item">
+										<a href="https://github.com/Railidea/RouteTrace/wiki/%E5%B9%BF%E4%B8%9C%E7%9C%81#user-content-meilong" class="showname">乳源森林铁路</a> / 广东省
+										<span class="badge inlist green">最近更新</span>
+									</li>
+
+									<li class="list-group-item">
+										<a href="https://github.com/Railidea/RouteTrace/wiki/%E5%B9%BF%E4%B8%9C%E7%9C%81#user-content-ruyuan" class="showname">梅隆铁路</a> / 广东省
+									</li>
+
+									<li class="list-group-item">
+										敬请期待
+									</li>
+
+									<li class="list-group-item">
+										敬请期待
+									</li>
+
+									<li class="list-group-item">
+										敬请期待
+									</li>
+								</ul>
+								<br>
+								<a href="treaty.html" type="button" class="btn btn-link">查找更多 ></a>
+						</center>
+				</div>
+				<div class="container" style="margin-top:5%">
+						<center>
+								<h3>绘途计划 · 愿景</h3>
+								<h1>什么是绘途计划？</h1>
+								<br>
+								<h4>绘途计划，旨在提供一个平台让轨道交通爱好者能够上传并共享“轨迹”。所谓轨迹，指的是利用卫星地图生成铁道线路的路径文件，如Google Earth的KML/KMZ文件。</h4>
+								<br>
+								<h4>我们发现，不少的交通爱好者热衷于对线路的探访考察，同时也会制作和整理这些线路数据，而卫星地图无疑为此提供了方便。而轨迹的创造者们也希望能够分享交流这些轨迹。无论是贯穿华夏大地的大动脉，还是藏匿于山谷荒草间甚至水下的废弃线路，都值得我们标记下来。</h4>
+								<br>
+								<h4>因此，@df7c5117 与 @香茶 共同发起了这个<a>开源项目</a>，希望建立一个涵盖中国铁路线的地标数据库，来记录这些钢铁长龙的足迹，用轨迹来丈量每一寸远方。 </h4>
+								<br>
+								<h5>* 本计划接受诸如国家铁路、地方铁路、厂矿专用线以及废弃或停建线路的轨迹文件。长大干线可以分段记录，欢迎多名贡献者合作贡献。</h5>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<div class="row">
+										<div class="col-xs-6 col-md-4">
+												<div class="panel panel-default">
+														<div class="panel-body">
+																<h1>2</h1><br>
+																<h4>条轨记</h4>
+														</div>
+												</div>
+										</div>
+										<div class="col-xs-6 col-md-4">
+												<div class="panel panel-default">
+														<div class="panel-body">
+																<h1>1</h1><br>
+																<h4>个省份和地区</h4>
+														</div>
+												</div>
+										</div>
+										<div class="col-xs-6 col-md-4">
+												<div class="panel panel-default">
+														<div class="panel-body">
+																<h1>2</h1><br>
+																<h4>位贡献者</h4>
+														</div>
+												</div>
+										</div>
+								</div>
+						</center>
+				</div>
+		</div>
+
+		<div class="jumbotron">
+				<div class="container" style="margin-top:5%">
+						<center style="">
+								<h3>常见问题</h3>
+								<h1>如何使用轨迹？</h1>
+								<br>
+								<h4>在Google Earth中，依次单击 <b>文件-打开</b>，选取KMZ/KML文件。</h4>
+								<br>
+								<h4>KMZ/KML可能是线路的走向，也可能是一个地标（如车站）。</h4>
+								<br>
+								<h4>当信息点加载完毕，就可以尽情探索了。你可以右键点击路径获取地形高度分布，对话框下方的“播放游览”甚至可以以俯视视角观测地形变化。</h4>
+								<br>
+						</center>
+				</div>
+		</div>
+
+
+		<div class="jumbotron">
+				<div class="container" style="margin-top:5%">
+						<center>
+								<h3>贡献轨记</h3>
+								<h1>如何参与贡献？</h1>
+								<br>
+								<br>
+								<h4>如果您会使用Git，您可以使用它来维护此项目，或者只需制作好轨迹并用邮件提供给我们。</h4>
+								<br>
+								<br>
+								<h3>制作轨记</h3>
+								<hr>
+								<h4>你可以在Google Earth的菜单栏上点击 <b>添加-路径</b> 或 <b>添加-地标</b>，通过在地图上勾勒来创建轨迹，轨迹一般将保存在左侧栏的“位置”中。请右键这些项目，选择<b>“将位置另存为…”</b>保存为KMZ文件。</h4>
+								<br>
+								<h3>上传共享</h3>
+								<hr>
+								<div class="container">
+								<table cellpadding="80">
+										<tr>
+												<td><h4>使用Git……</h4></td>
+												<td style="width:15px">&#12288;</td>
+												<td><h4>或者……</h4></td>
+										</tr>
+										<tr>
+												<td><li>到<a>这里</a>复刻（Fork）本项目到自己的仓库，并克隆（Clone）您自己的分支到本地。</li></td>
+												<td style="width:15px">&#12288;</td>
+												<td><li>将创建好的轨迹放入以所在省份的拼音全称的文件夹中（例如：四川Sichuan），再附上txt格式的线路简介，打包成Zip文件。</li></td>
+										</tr>
+										<tr>
+												<td><li>将创建好的轨迹放入以所在省份的拼音全称的文件夹中（例如：四川Sichuan），再附上txt格式的线路简介，并执行Git三连：</td>
+												<td style="width:15px">&#12288;</td>
+												<td><li>将文件发送至 <code>1411121236@qq.com</code> ，在主题和正文中注明“共享轨迹”并对你所绘制线路进行必要的描述介绍。</li></td>
+										</tr>
+										<tr>
+												<td style="font-weight:lighter">&#12288;<code>git add *</code> //添加文件</td>
+												<td style="width:15px">&#12288;</td>
+												<td><li>耐心等待审核与合并。</td>
+										</tr>
+										<tr style="font-weight:lighter">
+												<td>&#12288;<code>git commit -m "提交的说明"</code> //添加文件</td>
+												<td style="width:15px">&#12288;</td>
+												<td></td>
+										</tr>
+										<tr style="font-weight:lighter">
+												<td>&#12288;<code>git push origin master</code> //上传到自己的分支</td>
+												<td style="width:15px">&#12288;</td>
+												<td></td>
+										</tr>
+										<tr>
+												<td><li>向项目主分支提交Pull Request，耐心等待审核与合并。</li></td>
+												<td style="width:15px">&#12288;</td>
+												<td></td>
+										</tr>
+								</table>
+								</div>
+								<h5>* 由于需要人工审核，数据的更新可能较慢。</h5>          
+						</center>
+						</div>
+				</div>
+
+		<div class="jumbotron">
+				<div class="container" style="margin-top:5%">
+						<center style="">
+								<h3>骄傲地成为轨迹的创造者</h3>
+								<h1>现在就上传你的轨迹。</h1>
+								<br>
+								<br>
+								<a href="https://github.com/Railidea/RouteTrace/wiki" type="button" class="btn btn-link">查找轨迹 ></a>
+								&#12288;
+								<a href="https://github.com/Railidea/RouteTrace" type="button" class="btn btn-link">开源仓库 ></a>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+								<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+								<br>
+								<br>
+						</center>
+				</div>
+		</div>
+
+		<footer class="footer in-dex">
+				<div class="container">
+						<span class="VI"><img src="res/logo_b.png" align="center" style="width:13%" /> · 蓝鲸铁路出品</span>
+						<ul class="footer-links">
+								<li><a href="http://shang.qq.com/wpa/qunwpa?idkey=aa2ed0ddcf3ea67c2fb3b613d9d6ebeee537de968038996db033ed0cbd87d7cd">交通美学研究所</a></li>
+								<li><a href="https://zhuanlan.zhihu.com/transpotter">城客圈</a></li>
+								<li><a title="即将推出" style="cursor:not-allowed;">车迷圈</a></li>
+								<li><a href="https://railidea.github.io/partner.html">与我们合作</a></li>
+								<li><a href="policy.html">隐私及版权</a></li>
+								<li>© 2018 A <a href="https://railidea.github.io/about.html" target="_blank">LJR</a> Project.</li>
+						</ul>
+				</div>
+		</footer>
+		</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/pages/index.js"></script>
+</html>
