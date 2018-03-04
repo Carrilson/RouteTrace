@@ -62,6 +62,7 @@ code{
 }
 .footer-links li {
 	margin-left: 25px;
+	margin-top: 15px;
     display: inline-block;
 }
 .footer-links a {
@@ -70,17 +71,6 @@ code{
 }
 .footer-links a:hover{
 	color: #fff
-}
-.vi{
-	border-right: 1px solid #aaa;
-	font-size: 1.2em;
-	padding-right: 20px
-}
-@media (max-width: 1000px){
-	.vi {
-	    border-right:none;
-	    line-height:3em;
-	}
 }
 .navbar{
 	margin-bottom: 0!important
