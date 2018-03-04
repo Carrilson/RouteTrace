@@ -12,10 +12,3 @@ $(document).ready(function(){
 	});
 });
 function backtop(){$("body").animate({scrollTop:0})}
-
-function dispwx(){
-	$("#wx").removeClass('hide');
-}
-function hidewx(){
-	$("#wx").addClass('hide');
-}
