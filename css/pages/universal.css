@@ -98,10 +98,10 @@ code{
 	color:#fff;
 }
 .navbar-default.transparent .collapsing{
-	background-color:#555
+	background-color:#222
 }
 .navbar-default.transparent .collapse.in{
-	background-color:#555
+	background-color:#222
 }
 .navbar-default.transparent .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color:transparent;
