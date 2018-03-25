@@ -5,11 +5,9 @@ $(document).ready(function(){
 		if(scrollTop > top){                 //滑动到该位置时执行代码
 			$(".navbar").removeClass("transparent");
 			$("#backtotop").removeClass("hide");
-			$("#dashboard").removeClass("hide");
 		}else{
 			$(".navbar").addClass("transparent");
 			$("#backtotop").addClass("hide");
-			$("#dashboard").addClass("hide");
 		}
 	});
 });
