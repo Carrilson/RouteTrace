@@ -36,6 +36,10 @@ code{
 	padding: 5px 10px 
 }
 
+body{
+	width:100%!important;
+}
+
 .panel-body.method{
 	text-align:left;
 	line-height: 35px
@@ -124,19 +128,19 @@ code{
 	height:100%;
 }
 #ctr{
-	padding-top:20%;
+	-webkit-transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
 }
 @media(max-width:735px){
 	#ctr{
-		padding-top:25%;
+    min-width: 90%!important
 	}
 }
 @media(max-width:735px){
 	.jumbotron{
 	background-size:200%
-	}
-	#ctr{
-	padding-top:40%;
 	}
 }
 
