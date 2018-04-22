@@ -77,7 +77,26 @@ body{
 	color: #fff
 }
 .navbar{
-	margin-bottom: 0!important
+	margin-bottom: 0!important;
+}
+@supports (-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px)) {
+	.navbar.blur{
+		backdrop-filter: blur(15px);
+		-webkit-backdrop-filter: blur(15px);
+	}
+	.navbar-inverse {
+	    background-color: #000000a9;
+	    border-color: transparent!important;
+	}
+}
+
+@supports not ((-webkit-backdrop-filter: blur(15px)) or (backdrop-filter: blur(15px))) {
+	.navbar.blur{
+		background-color: #222;
+	}
+	.navbar-inverse {
+	    background-color: #222;
+	}
 }
 .navbar-default{
 	transition:0.25s ease-out
