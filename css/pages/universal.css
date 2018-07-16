@@ -1,6 +1,6 @@
 /*universal*/
 html::-webkit-scrollbar,div::-webkit-scrollbar{
-	width:10px;
+	width:6px;
 	background:none;
 }
 html::-webkit-scrollbar-button,div::-webkit-scrollbar-button{
@@ -8,9 +8,9 @@ html::-webkit-scrollbar-button,div::-webkit-scrollbar-button{
 }
 html::-webkit-scrollbar-thumb,div::-webkit-scrollbar-thumb{
 	background-color: rgba(0,0,0,.6);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
 }
 code{
 	background: #eee;
